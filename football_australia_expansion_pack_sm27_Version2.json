@@ -1,0 +1,62 @@
+{
+  "pack": {
+    "title": "Football Australia Expansion Pack",
+    "game": "Soccer Manager 27",
+    "version": "0.1.0",
+    "data_season": "2026",
+    "generated": "2026-11-20",
+    "country": "Australia",
+    "currency": "AUD",
+    "language": "en-AU",
+    "notes": [
+      "Community expansion database scaffold.",
+      "Club and competition participation requires annual verification.",
+      "No player or licensed asset data is supplied.",
+      "Use only licensed, verified player and asset information."
+    ]
+  },
+  "competitions": [
+    {
+      "id": "npl-queensland",
+      "name": "NPL Queensland",
+      "country": "Australia",
+      "tier": 2,
+      "format": "league",
+      "teams": [
+        "brisbane-city-npl-queensland",
+        "brisbane-roar-youth-npl-queensland",
+        "eastern-suburbs-npl-queensland",
+        "gold-coast-knights-npl-queensland",
+        "gold-coast-united-npl-queensland",
+        "lions-fc-npl-queensland",
+        "magic-united-npl-queensland",
+        "moreton-city-excelsior-npl-queensland",
+        "olympic-fc-npl-queensland",
+        "peninsula-power-npl-queensland",
+        "rochedale-rovers-npl-queensland",
+        "wynnum-wolves-npl-queensland"
+      ],
+      "season": "2026"
+    }
+  ],
+  "teams": [
+    {
+      "id": "brisbane-city-npl-queensland",
+      "name": "Brisbane City",
+      "country": "Australia",
+      "region": "Queensland",
+      "competition_id": "npl-queensland",
+      "status": "semi_professional",
+      "squad": [],
+      "assets": {
+        "logo": null,
+        "kits": []
+      }
+    }
+  ],
+  "players": [],
+  "asset_library": {
+    "logos": {},
+    "kits": {}
+  }
+}
